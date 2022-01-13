@@ -1,0 +1,108 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-13T20:31:41.221Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Login to Test Environment Retail Page",
+        "description": "",
+        "id": "test-environment-retail-page;login-to-test-environment-retail-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user is on test environment homepage",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.user_is_on_test_environment_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user click on myaccount button",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.user_click_on_myaccount_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user click on login button",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enter username and password",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.user_enter_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user click on login button to login to the page",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.user_click_on_login_button_to_login_to_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Test Environment Retail Page",
+    "description": "",
+    "id": "test-environment-retail-page",
+    "keyword": "Feature",
+    "uri": "classpath:features/login.feature",
+    "tags": []
+  }
+]
